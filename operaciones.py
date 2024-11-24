@@ -1,20 +1,21 @@
-if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+def validar_entrada(a, b):
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("Ambos argumentos deben ser números")
+
+def sumar(a, b):
+    validar_entrada(a, b)
     return a + b
 
 def restar(a, b):
-    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
-        raise TypeError("Ambos argumentos deben ser números")
+    validar_entrada(a, b)
     return a - b
 
 def multiplicar(a, b):
-    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
-        raise TypeError("Ambos argumentos deben ser números")
+    validar_entrada(a, b)
     return a * b
 
 def dividir(a, b):
-    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
-        raise TypeError("Ambos argumentos deben ser números")
+    validar_entrada(a, b)
     if b == 0:
         raise ValueError("No se puede dividir entre cero")
     return a / b
