@@ -1,5 +1,5 @@
 import unittest
-from math_operations import sumar, restar, multiplicar, dividir
+from operaciones import sumar, restar, multiplicar, dividir
 
 class TestMathOperations(unittest.TestCase):
     def test_sumar(self):
