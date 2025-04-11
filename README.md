@@ -1,4 +1,4 @@
-# Proyecto Calculadora c on Validación y Pruebas Unitarias
+# Proyecto Calculadora con Validación y Pruebas Unitarias
 
 Este proyecto implementa un conjunto de funciones básicas para realizar operaciones matemáticas como suma, resta, multiplicación y división. También incluye validaciones para manejar entradas incorrectas y pruebas unitarias automatizadas con GitHub Actions.
 
